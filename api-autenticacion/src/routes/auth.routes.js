@@ -65,7 +65,7 @@ router.post('/login', async (req, res) => {
             });
         }
         res.status(200).json({
-            mansaje: 'autenticación satisfactoria'
+            mensaje: 'autenticación satisfactoria'
         });
         
     } catch (error) {
